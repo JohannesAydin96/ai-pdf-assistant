@@ -49,7 +49,7 @@ The application follows a Retrieval Augmented Generation (RAG) pipeline:
 6. The retrieved chunks are sent as context to the language model.
 7. The model generates an answer based on the provided context.
 
-Pipeline overview:
+### Pipeline Overview
 
 
 PDF → Text → Chunks → Embeddings → Vector Database
@@ -82,7 +82,6 @@ ai-pdf-assistant/
 ├── chunker.py # Splits text into chunks
 ├── vector_store.py # Handles Chroma vector database
 └── rag_pipeline.py # Connects retrieval + LLM
-
 
 ### File Responsibilities
 
