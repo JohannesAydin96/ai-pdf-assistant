@@ -85,7 +85,7 @@ ai-pdf-assistant/
 └── rag_pipeline.py # Connects retrieval + LLM
 
 ```
-```
+
 
 ### File Responsibilities
 
